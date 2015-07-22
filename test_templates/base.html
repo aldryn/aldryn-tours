@@ -1,0 +1,9 @@
+{% load cms_tags menu_tags sekizai_tags %}
+<html>
+    <body>
+        {% cms_toolbar %}
+        {{ ALDRYN_SNAKE.render_head }}
+        {% block content %}{% endblock content %}
+        {{ ALDRYN_SNAKE.render_tail }}
+    </body>
+</html>

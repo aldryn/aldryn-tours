@@ -1,0 +1,6 @@
+{
+	"package-name": "aldryn-tours",
+	"installed-apps": [
+		"aldryn_tours"
+	]
+}

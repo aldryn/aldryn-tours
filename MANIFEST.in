@@ -1,0 +1,4 @@
+include LICENSE.txt
+recursive-include aldryn_tours/templates *
+recursive-include aldryn_tours/migrations *
+recursive-exclude * *.pyc
