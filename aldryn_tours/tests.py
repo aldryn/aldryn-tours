@@ -10,9 +10,6 @@ from .models import get_template
 
 
 class RenderSnakeTestCase(TestCase, BaseCMSTestCase):
-    su_username = 'user'
-    su_password = 'pass'
-
     def setUp(self):
         self.template = get_cms_setting('TEMPLATES')[0][0]
         self.language = settings.LANGUAGES[0][0]
